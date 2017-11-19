@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImproveYourHealth</string>
+    <string name="Monday_ex1">"Планка"</string>
+    <string name="Monday_ex2">"Отжимания"</string>
+    <string name="Monday_body1">"Пресс"</string>
+    <string name="Monday_body2">"Руки"</string>
+    <string name="Tuesday_ex1">"Планка"</string>
+    <string name="Tuesday_ex2">"Отжимания"</string>
+    <string name="Tuesday_body1">"Пресс"</string>
+    <string name="Tuesday_body2">"Руки"</string>
+</resources>

@@ -13,8 +13,12 @@ local.properties
 # Signing files
 .signing/
 
+<<<<<<< HEAD
 # User-specific configurations
 .idea/libraries/
+=======
+# Intellij
+>>>>>>> b3acb4a120df08fd56f6629eb8b782d31997ef69
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/.name

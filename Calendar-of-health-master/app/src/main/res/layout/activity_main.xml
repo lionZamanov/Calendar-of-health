@@ -64,6 +64,8 @@
 
     <ImageView
         android:id="@+id/Task1"
+        android:clickable="true"
+        android:focusable="true"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:layout_alignParentLeft="true"
@@ -77,11 +79,13 @@
         android:id="@+id/task6"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/Task1"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/ic_box" />
+        app:srcCompat="@drawable/ic_box"
+        android:clickable="true"
+        android:focusable="true"/>
 
     <TextView
         android:id="@+id/Name"
@@ -133,6 +137,29 @@
         android:text="@string/Monday_body2"
         android:textColor="@color/white"
         android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/counter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/counter"
+        android:layout_alignStart="@+id/counter"
+        android:layout_below="@+id/Name2"
+        android:text="60"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/part_of_the_body1"
+        android:layout_alignBottom="@+id/part_of_the_body1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="60"
+        android:textColor="@color/white" />
 
 </RelativeLayout>
 
